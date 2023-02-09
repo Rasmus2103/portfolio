@@ -5,14 +5,14 @@ body {
 #container {
     background-color: #FFFFFF;
     width:1200px;
-    height:1700px;
+    height:100%;
     display:block;
     margin-right:auto;
     margin-left:auto;
 }
 
 #wrapper {
-    min-height:1650px;
+    min-height:1550px;
 }
 
 header ul {
@@ -132,8 +132,10 @@ p {
 }
 
 .left {
+    display: flex;
     margin-top:50px;
     width:100%;
+    flex: 50%;
 }
 
 .left img {
@@ -142,18 +144,20 @@ p {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom:20px;
 }
 
 .left p {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.6;
     margin-left:20px;
+    padding:80px 0 0 80px;
 }
 
 .right {
-    margin-top:200px;
-    margin-bottom:200px;
+    display: flex;
     width:100%;
+    flex: 50%;
 }
 
 .right img {
@@ -162,12 +166,14 @@ p {
     float: right;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom:20px;
 }
 
 .right p {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.6;
     margin-left:20px;
+    padding:80px 0 0 80px;
 }
 
 .fa-home {
@@ -210,11 +216,12 @@ footer section h2 {
     color:white;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size:18px;
+    font-size:24px;
 }
 
 footer section p {
     color:white;
     font-family: 'Helvetica Neue', sans-serif;
     margin-bottom:10px;
+    font-size:22px;
 }
