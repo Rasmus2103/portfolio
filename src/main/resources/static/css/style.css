@@ -1,0 +1,139 @@
+body {
+    background-color:#F0F0F0;
+}
+
+#container {
+    background-color: #FFFFFF;
+    width:1200px;
+    height:1600px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#wrapper {
+    min-height:1550px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    font-size:45px;
+    font-family:sans-serif;
+    border-bottom:3px solid;
+    width:1000px;
+    margin-left:20px;
+    color:#353537;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-left:25px;
+    color:#353537;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#introduction {
+    margin-top:50px;
+}
+
+#introduction img {
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#introduction section p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#travel {
+    margin-top:50px;
+    max-width:100%;
+}
+
+#travel img {
+    width: 35%;
+    height: 30%;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#travel section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#programming {
+    float:left;
+}
+
+.fa-home {
+    margin-right:5px;
+}
+
+.fa-envelope {
+    margin-right:5px;
+}
+
+.fa-phone {
+    margin-right:5px;
+}
+
+.fa-school {
+    margin-right:5px;
+}
+
+footer {
+    background-color:#353537;
+}
+
+footer section {
+    display:inline-block;
+    width:30%;
+    height:200px;
+    margin-left:30px;
+}
+
+footer section h2 {
+    color:white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+}
+
+footer section p {
+    color:white;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom:10px;
+}
